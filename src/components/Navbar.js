@@ -40,9 +40,9 @@ class Navbar extends Component {
               const linkClassName = isLastLink ? "nav-links last-link" : "nav-links";
               return (
                 <li key={index}>
-                  <a className={linkClassName} href="/">
+                  <Link className={linkClassName} to={item.url}>
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
