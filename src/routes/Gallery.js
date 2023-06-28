@@ -1,6 +1,9 @@
+import Navbar from "../components/Navbar";
+
 function Gallery (){
   return(
     <>
+    <Navbar/>
     <h1>This is gallery</h1>
     </>
   )
