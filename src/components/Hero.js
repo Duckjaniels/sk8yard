@@ -1,14 +1,13 @@
 import "./HeroStyles.css";
-import heroImage from '../assets/hero_1.png'
 
-function Hero(){
+function Hero(props){
   return(
     <>
-    <div className="hero">
-      <img alt="HeroImg" src={heroImage}/>
+    <div className={props.cName}>
+      <img alt="HeroImg" src={props.heroImg}/>
       <div className="hero-text">
-        <h1 className="hero-title">sk8yard</h1>
-        <p className="hero-subtitle">Sprawiamy, że rzeczy się dzieją... </p>
+        <h1>{props.title}</h1>
+        <p>{props.text}</p>
       </div>
     </div>
     </>
