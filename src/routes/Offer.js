@@ -1,11 +1,13 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import heroImage from "../assets/hero_offer.png";
 
-function Offer (){
-  return(
+function Offer() {
+  return (
     <>
-    <Navbar/>
-    <h1>This is offer</h1>
+      <Navbar />
+      <Hero cName="hero-mid" heroImg={heroImage} title="Oferta" />
     </>
-  )
-  }
-  export default Offer;
+  );
+}
+export default Offer;

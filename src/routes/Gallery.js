@@ -1,11 +1,13 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import heroImage from "../assets/hero_gallery.png";
 
-function Gallery (){
-  return(
+function Gallery() {
+  return (
     <>
-    <Navbar/>
-    <h1>This is gallery</h1>
+      <Navbar />
+      <Hero cName="hero-mid" heroImg={heroImage} title="Galeria" />
     </>
-  )
-  }
-  export default Gallery;
+  );
+}
+export default Gallery;

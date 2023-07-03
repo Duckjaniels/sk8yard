@@ -1,11 +1,11 @@
-#navbar-container{
-  background: rgba(0,0,0,0.5);
+#navbar-container {
+  background: rgba(0, 0, 0, 0.5);
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 10000;
   width: 100%;
 }
-.NavbarItems{
+.NavbarItems {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,19 +13,19 @@
   width: 100%;
   height: 80px;
 }
-.navbar-logo{
+.navbar-logo {
   cursor: pointer;
   height: 70px;
   width: 70px;
 }
-.nav-menu{
+.nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   align-items: center;
 }
-.nav-links{
+.nav-links {
   text-decoration: none;
   border-right: 2px solid green;
   color: #fff;
@@ -34,27 +34,27 @@
   padding: 0.2rem 1rem;
   text-transform: uppercase;
 }
-.nav-links:hover{
+.nav-links:hover {
   color: green;
   transition: all 0.2s ease-in-out;
 }
 .last-link {
   border-right: none;
 }
-.menu-icons{
+.menu-icons {
   display: none;
 }
-@media screen and (max-width: 850px){
-  .NavbarItems{
+@media screen and (max-width: 850px) {
+  .NavbarItems {
     z-index: 99;
     background-color: black;
   }
-  .navbar-logo{
+  .navbar-logo {
     cursor: pointer;
     height: 55px;
     width: 55px;
   }
-  .nav-menu{
+  .nav-menu {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -70,35 +70,35 @@
     margin: 0;
     transition: 0.3s ease-in-out;
   }
-  .nav-menu.active{
+  .nav-menu.active {
     left: 0;
     opacity: 1;
     z-index: -1;
     transition: 0.3s ease-in-out;
   }
-  .nav-links{
+  .nav-links {
     color: #000000;
-  display: block;
-  width: 100%;
-  font-size: 1.7rem;
-  font-weight: bold;
-  border-right: none;
-  padding: 2rem 0;
+    display: block;
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-right: none;
+    padding: 1.2rem 0;
   }
-  .nav-links:hover{
-background: green;
-color:white;
-transition: none;
+  .nav-links:hover {
+    background: green;
+    color: white;
+    transition: none;
   }
-  .menu-icons{
+  .menu-icons {
     display: flex;
-    color:white;
+    color: white;
   }
   .fa-bars {
     width: 35px;
     height: 35px;
   }
-  .fa-xmark{
+  .fa-xmark {
     width: 35px;
     height: 35px;
   }

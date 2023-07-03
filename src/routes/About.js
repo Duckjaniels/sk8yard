@@ -1,11 +1,13 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import heroImage from "../assets/hero_about.png";
 
-function About (){
-  return(
+function About() {
+  return (
     <>
-    <Navbar/>
-    <h1>This is about</h1>
+      <Navbar />
+      <Hero cName="hero-mid" heroImg={heroImage} title="O nas" />
     </>
-  )
-  }
-  export default About;
+  );
+}
+export default About;
