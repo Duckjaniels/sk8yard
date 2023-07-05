@@ -38,6 +38,18 @@ img {
   font-size: 1.2rem;
   text-align: left;
 }
+.show {
+  cursor: pointer;
+  text-decoration: none;
+  position: absolute;
+  color: green;
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  left: 0;
+}
+.show:hover {
+  text-decoration: underline;
+}
 @media screen and (max-width: 555px) {
   .about_us {
     background-color: #dfdad5;
@@ -55,5 +67,8 @@ img {
   }
   .about-text h1 {
     width: 70%;
+  }
+  .show {
+    padding: 1rem 0;
   }
 }

@@ -9,6 +9,9 @@ function AboutUs(props) {
           <h1>{props.about_title}</h1>
           <h2>{props.about_subtitle}</h2>
           <p>{props.about_text}</p>
+          <a href={props.url} className={props.btnClass}>
+            {props.buttonText}
+          </a>
         </div>
       </div>
     </>

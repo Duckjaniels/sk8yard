@@ -20,6 +20,9 @@ function Home() {
         about_title="sk8yard"
         about_subtitle="To grupa specjalistów z ponad 15-letnim doświadczeniem."
         about_text="Zajmujemy się kompleksowym planowaniem, projektowaniem i budową profesionalnych skateparków z wykorzystaniem wielu technologii od konstrukcji sklejkowo-drewnianej przez laserowo wycinane konstrukcje stalowe po skateparki betonowe."
+        url="/About"
+        btnClass="show"
+        buttonText="Czytaj więcej"
       />
     </>
   );
