@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import AboutUs from "../components/AboutUs";
 import heroImage from "../assets/hero_1.png";
 import aboutImage from "../assets/about_image.png";
+import OurOffer from "../components/OurOffer";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         btnClass="show"
         buttonText="Czytaj więcej"
       />
+      <OurOffer />
     </>
   );
 }
