@@ -1,4 +1,6 @@
+import React, { useState } from "react";
 import "./PhotoGallery.css";
+import CloseIcon from "@material-ui/icons/Close";
 import Img1 from "../assets/gallery/gallery_1.png";
 import Img2 from "../assets/gallery/gallery_2.png";
 import Img3 from "../assets/gallery/gallery_3.png";
@@ -33,15 +35,29 @@ const PhotoGallery = () => {
       imgSrc: Img6,
     },
   ];
+  const [model, setModel] = useState(false);
+  const [tempimgSrc, setTempImgSrc] = useState("");
+  const getImg = (imgSrc) => {
+    setTempImgSrc(imgSrc);
+    setModel(true);
+  };
   return (
     <div className="gallery-container">
       <h1>Galeria</h1>
       <p>Przykładowe zdjęcia naszych prac</p>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempimgSrc} />
+        <CloseIcon onClick={() => setModel(false)} />
+      </div>
       <div className="photo-gallery">
         {data.map((item, index) => {
           return (
-            <div className="pics" key={index}>
-              <img src={item.imgSrc} />
+            <div
+              className="pics"
+              key={index}
+              onClick={() => getImg(item.imgSrc)}
+            >
+              <img src={item.imgSrc} style={{ width: "100%" }} />
             </div>
           );
         })}
