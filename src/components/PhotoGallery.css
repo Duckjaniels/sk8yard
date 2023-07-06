@@ -1,0 +1,41 @@
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.gallery-container h1 {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: 800;
+  color: green;
+  text-transform: uppercase;
+}
+.gallery-container p {
+  padding: 3rem;
+  color: rgb(223, 218, 214);
+}
+.photo-gallery {
+  column-count: 3;
+  column-width: 33%;
+  padding: 0 12px;
+}
+
+.photo-gallery .pics {
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.photo-gallery .pics:hover {
+  filter: opacity(0.8);
+}
+@media (max-width: 991px) {
+  .photo-gallery {
+    column-count: 2;
+  }
+}
+@media (max-width: 480px) {
+  .photo-gallery {
+    column-count: 1;
+    column-width: 100%;
+  }
+}
