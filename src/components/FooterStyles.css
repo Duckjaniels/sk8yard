@@ -5,13 +5,20 @@
   display: flex;
   justify-content: space-between;
 }
+.mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .footer-logo {
   cursor: pointer;
   height: 55px;
   width: 55px;
 }
 .socials {
+  width: 100%;
+  padding: 1rem 0;
   display: flex;
   color: white;
-  justify-content: space-evenly;
+  justify-content: space-evenly !important;
 }

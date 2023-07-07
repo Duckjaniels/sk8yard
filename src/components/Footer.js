@@ -8,7 +8,9 @@ const Footer = () => {
     <div className="footer">
       <div className="left">
         <ul>
-          <li>SK8YARD Sp. z o.o.</li>
+          <li>
+            <strong>SK8YARD</strong> Sp. z o.o.
+          </li>
           <li>ul. Królewska 57, 30-081 Kraków</li>
           <li>NIP: 6772473291</li>
           <li>REGON: 520972858</li>
