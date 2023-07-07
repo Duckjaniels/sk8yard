@@ -1,4 +1,4 @@
-import "./AboutUs.css";
+import "./AboutUsStyles.css";
 
 function AboutUs(props) {
   return (

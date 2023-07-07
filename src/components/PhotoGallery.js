@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./PhotoGallery.css";
+import "./PhotoGalleryStyles.css";
 import CloseIcon from "@material-ui/icons/Close";
 import Img1 from "../assets/gallery/gallery_1.png";
 import Img2 from "../assets/gallery/gallery_2.png";

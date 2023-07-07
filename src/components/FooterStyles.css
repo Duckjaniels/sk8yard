@@ -1,0 +1,17 @@
+.footer {
+  padding: 4rem 6rem;
+  background: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+}
+.socials {
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}

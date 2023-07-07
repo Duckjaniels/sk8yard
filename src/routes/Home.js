@@ -5,6 +5,7 @@ import heroImage from "../assets/hero_1.png";
 import aboutImage from "../assets/about_image.png";
 import OurOffer from "../components/OurOffer";
 import PhotoGallery from "../components/PhotoGallery";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -28,6 +29,7 @@ function Home() {
       />
       <OurOffer />
       <PhotoGallery />
+      <Footer />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import "./OurOffer.css";
+import "./OurOfferStyles.css";
 
 function OurOfferData(props) {
   return (

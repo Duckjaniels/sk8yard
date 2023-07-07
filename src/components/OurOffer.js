@@ -1,4 +1,4 @@
-import "./OurOffer.css";
+import "./OurOfferStyles.css";
 import OurOfferData from "./OurOfferData";
 import Offert1 from "../assets/offer1.png";
 import Offert2 from "../assets/offer2.png";
