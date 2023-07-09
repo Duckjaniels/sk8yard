@@ -1,0 +1,54 @@
+.form-container {
+  padding: 4rem 6rem;
+  background: #e5e5e5;
+}
+.form-container h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000000;
+  text-transform: uppercase;
+}
+.form-container form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-weight: bold;
+}
+.form-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid;
+}
+.form-container textarea {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid;
+}
+.form-container button {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  width: 30%;
+  height: 30px;
+  background-color: green;
+  color: #e5e5e5;
+}
+@media screen and (max-width: 850px) {
+  .form-container {
+    padding: 2rem 2rem;
+  }
+  .form-container form {
+    padding-top: 2rem;
+
+    width: 90%;
+  }
+}
