@@ -22,3 +22,26 @@
   color: white;
   justify-content: space-evenly !important;
 }
+.footer ul {
+  text-align: left;
+  list-style: none;
+}
+.footer li {
+  padding: 0.3rem 0;
+}
+@media (max-width: 991px) {
+  .footer {
+    height: 500px;
+    padding: 1.2rem 3rem;
+    flex-direction: column;
+  }
+  .mid {
+    order: 1;
+  }
+  .left {
+    order: 2;
+  }
+  .right {
+    order: 3;
+  }
+}

@@ -26,9 +26,13 @@ const Footer = () => {
       </div>
       <div className="right">
         <ul>
-          <li>INFORMACJE OGÓLNE:</li>
+          <li>
+            <strong>INFORMACJE OGÓLNE:</strong>
+          </li>
           <li>info@sk8yard.com | 785-066-111</li>
-          <li>PROJEKTY I KONSULTACJE:</li>
+          <li>
+            <strong>PROJEKTY I KONSULTACJE:</strong>
+          </li>
           <li>projekty@sk8yard.com | 883-044-014</li>
         </ul>
       </div>
