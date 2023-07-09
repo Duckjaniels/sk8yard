@@ -6,6 +6,7 @@ import aboutImage from "../assets/about_image.png";
 import OurOffer from "../components/OurOffer";
 import PhotoGallery from "../components/PhotoGallery";
 import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
       />
       <OurOffer />
       <PhotoGallery />
+      <ContactForm />
       <Footer />
     </>
   );
