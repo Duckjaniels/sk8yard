@@ -1,7 +1,11 @@
 import "./FooterStyles.css";
 import logo from "../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -21,6 +25,7 @@ const Footer = () => {
         <div className="socials">
           <FontAwesomeIcon icon={faFacebook} size="2x" />
           <FontAwesomeIcon icon={faInstagram} size="2x" />
+          <FontAwesomeIcon icon={faYoutube} />
         </div>
         <p className="copywrite">© Sk8yard 2023</p>
       </div>
