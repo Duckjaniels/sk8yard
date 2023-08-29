@@ -1,14 +1,12 @@
 .offer {
-  padding: 3rem 6rem 5rem;
+  padding: 3rem 0;
   color: rgb(223, 218, 214);
 }
 
 .offer h1 {
-  color: transparent; /* Ukrycie wewnętrznej części czcionki */
   text-shadow: 0px 0px 0px transparent, 0px 0px 6px rgba(0, 0, 0, 0.8);
   overflow: hidden;
   text-transform: uppercase;
-  width: 1680px;
   height: 110px;
   padding-bottom: 10px;
   flex-shrink: 0;
@@ -25,6 +23,9 @@
   font-weight: 400;
   line-height: 0px; /* 30% */
   letter-spacing: 9px;
+}
+.offer h1.full-width {
+  width: 100vw; /* Szerokość całego okna przeglądarki */
 }
 .offercard {
   margin-top: 3rem;
