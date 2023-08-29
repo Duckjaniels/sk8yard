@@ -8,6 +8,7 @@ function OurOffer() {
   return (
     <div className="offer">
       <h1>oferta</h1>
+
       <p>
         Od planowania i projektowania, po produkcję i budowę, aż po organizację
         eventów SK8YARD to punkt kompleksowej obsługi wszystkich skateparków, w
