@@ -27,39 +27,92 @@
 .offer h1.full-width {
   width: 100vw; /* Szerokość całego okna przeglądarki */
 }
+.offer-subtitle {
+  padding-top: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Kanit;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px; /* 214.286% */
+  letter-spacing: 1.89px;
+}
 .offercard {
-  margin-top: 3rem;
+  padding: 20px 20rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap; /* Dodaj flex-wrap, aby elementy zawijały się w nowe linie */
+  gap: 30px; /* Dodaj odstęp między elementami */
 }
 .o-card {
-  width: 25%;
+  width: calc(
+    (100% - 60px) / 3
+  ); /* Szerokość karty z uwzględnieniem marginesów i odstępu */
+  height: 270px; /* Wysokość karty */
   text-align: center;
-  color: black;
-  background-color: rgb(223, 218, 214);
-  box-shadow: 0 5px 25px 2px rgba(223, 218, 214, 0.4);
-  border-radius: 7px;
   cursor: pointer;
-  padding: 1rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Rozłożenie elementów wewnątrz karty */
 }
 .o-image {
   height: 200px;
   overflow: hidden;
   border-radius: 7px;
 }
-.o-image img {
+.o-card-image {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.o-card-image h4 {
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
-  height: 100%;
-  transition: 0.3s ease-in-out;
-  border-radius: 7px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition: top 0.3s ease-in-out;
+  color: #fff;
+  text-align: center;
+  font-family: Kanit;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 72px;
+  letter-spacing: 2.43px;
+  text-transform: uppercase;
 }
-.o-image:hover img {
-  transform: scale(1.3);
+
+.o-card-image:hover h4 {
+  top: 0;
 }
-.o-card h4 {
-  color: green;
-  font-size: 1.3rem;
-  padding: 0.9rem 0 0.2rem 0;
+
+.o-card-text {
+  position: absolute;
+  top: 50%; /* Przesuń opis na środek obrazka */
+  transform: translateY(-50%); /* Skoryguj pozycję opisu */
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  text-align: center; /* Wyśrodkuj tekst */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.o-card-image:hover .o-card-text {
+  opacity: 1;
+  color: #fff;
+  text-align: center;
+  font-family: Kanit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
 }
 .offer-button {
   cursor: pointer;
@@ -69,10 +122,20 @@
   padding: 2rem 0;
   font-size: 1.2rem;
   right: 5%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 .offer-button:hover {
   text-decoration: underline;
 }
+
+.o-card-image:hover .offer-button {
+  opacity: 1;
+}
+
 @media screen and (max-width: 850px) {
   .offer {
     padding: 4rem 2rem;
