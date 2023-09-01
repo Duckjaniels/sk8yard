@@ -77,7 +77,8 @@
     padding: 0;
   }
   .navbar-logo {
-    width: 90%;
+    flex: 0 0 auto;
+    max-width: 330px;
   }
   .nav-menu {
     display: flex;
