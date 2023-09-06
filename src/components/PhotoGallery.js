@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./PhotoGalleryStyles.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CloseIcon from "@material-ui/icons/Close";
 import Img1 from "../assets/gallery/gallery_1.png";
 import Img2 from "../assets/gallery/gallery_2.png";
@@ -37,10 +39,17 @@ const PhotoGallery = () => {
   ];
   const [model, setModel] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState("");
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   const getImg = (imgSrc) => {
     setTempImgSrc(imgSrc);
     setModel(true);
   };
+
+  const handleArrowClick = (index) => {
+    setCurrentIndex(index);
+  };
+
   return (
     <div className="gallery-container">
       <h1>Galeria</h1>
@@ -50,19 +59,35 @@ const PhotoGallery = () => {
         <CloseIcon onClick={() => setModel(false)} />
       </div>
       <div className="photo-gallery">
-        {data.map((item, index) => {
-          return (
+        {/* Karuzela */}
+        <div className="carousel">
+          <Carousel showThumbs={false} selectedItem={currentIndex}>
+            {data.map((item, index) => (
+              <div
+                className="pics"
+                key={index}
+                onClick={() => getImg(item.imgSrc)}
+              >
+                <img src={item.imgSrc} style={{ width: "100%" }} />
+              </div>
+            ))}
+          </Carousel>
+        </div>
+        {/* Miniatury */}
+        <div className="thumbnails">
+          {data.map((item, index) => (
             <div
-              className="pics"
+              className={`thumbnail ${currentIndex === index ? "active" : ""}`}
               key={index}
-              onClick={() => getImg(item.imgSrc)}
+              onClick={() => handleArrowClick(index)}
             >
               <img src={item.imgSrc} style={{ width: "100%" }} />
             </div>
-          );
-        })}
+          ))}
+        </div>
       </div>
     </div>
   );
 };
+
 export default PhotoGallery;
