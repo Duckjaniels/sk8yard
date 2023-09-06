@@ -123,4 +123,44 @@
     top: 20px;
     right: 25px;
   }
+  .gallery-container {
+    padding: 2rem 0;
+  }
+  .gallery-container h1 {
+    text-align: center;
+    font-family: Kanit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.837px; /* 68.466% */
+    letter-spacing: 2.79px;
+    height: 30px;
+    padding-bottom: 0px;
+  }
+  .gallery-container p {
+    color: #fff;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Kanit;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 450% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+  .carousel {
+    height: 220px;
+  }
+  .control-dots {
+    display: block;
+  }
+
+  .carousel .control-dots .dot.selected {
+    background: #016c1f;
+  }
+  .thumbnails {
+    display: none;
+  }
 }

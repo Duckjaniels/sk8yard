@@ -3,12 +3,12 @@ import "./PhotoGalleryStyles.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CloseIcon from "@material-ui/icons/Close";
-import Img1 from "../assets/gallery/gallery_1.png";
-import Img2 from "../assets/gallery/gallery_2.png";
-import Img3 from "../assets/gallery/gallery_3.png";
-import Img4 from "../assets/gallery/gallery_4.png";
-import Img5 from "../assets/gallery/gallery_5.png";
-import Img6 from "../assets/gallery/gallery_6.png";
+import Img1 from "../assets/gallery/gallery_1.webp";
+import Img2 from "../assets/gallery/gallery_2.webp";
+import Img3 from "../assets/gallery/gallery_3.webp";
+import Img4 from "../assets/gallery/gallery_4.webp";
+import Img5 from "../assets/gallery/gallery_5.webp";
+import Img6 from "../assets/gallery/gallery_6.webp";
 
 const PhotoGallery = () => {
   let data = [
@@ -53,7 +53,7 @@ const PhotoGallery = () => {
   return (
     <div className="gallery-container">
       <h1>Galeria</h1>
-      <p>Przykładowe zdjęcia naszych prac</p>
+      <p>Zobacz niektóre z naszych realizacji</p>
       <div className={model ? "model open" : "model"}>
         <img src={tempimgSrc} />
         <CloseIcon onClick={() => setModel(false)} />
@@ -86,6 +86,9 @@ const PhotoGallery = () => {
           ))}
         </div>
       </div>
+      <a href="/Offer">
+        <button className="offer-button_main">Zobacz więcej realizacji</button>
+      </a>
     </div>
   );
 };
