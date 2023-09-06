@@ -1,5 +1,4 @@
 import "./OurOfferStyles.css";
-import OurOfferData from "./OurOfferData";
 import Offert1 from "../assets/offer_1.webp";
 import Offert2 from "../assets/offer_2.webp";
 import Offert3 from "../assets/offer_3.webp";
@@ -83,6 +82,9 @@ function OurOffer() {
           </a>
         </div>
       </div>
+      <a href="/Offer">
+        <button className="offer-button_main">Czytaj więcej</button>
+      </a>
     </div>
   );
 }

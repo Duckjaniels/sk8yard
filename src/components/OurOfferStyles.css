@@ -135,21 +135,20 @@
 .o-card-image:hover .offer-button {
   opacity: 1;
 }
-@media screen and (max-width: 850px) {
-  .nav-menu {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .nav-links {
-    border-right: none;
-    padding: 1rem;
-    text-align: center;
-    display: block;
-  }
-  .menu-icons {
-    display: block;
-  }
+.offer-button_main {
+  color: #fff;
+  cursor: pointer;
+  padding: 0 40px;
+  border: 1.5px solid #016c1f;
+  background: rgba(217, 217, 217, 0);
+  font-family: Kanit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 200% */
+  letter-spacing: 0.54px;
 }
+
 @media screen and (max-width: 850px) {
   .offer h1 {
     text-align: center;
@@ -186,5 +185,8 @@
   .offer-button {
     padding: 2rem 0;
     right: 9%;
+  }
+  .offer-button_main {
+    margin-top: 30px;
   }
 }
