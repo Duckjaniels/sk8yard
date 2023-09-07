@@ -5,35 +5,41 @@ function ContactForm() {
     <div className="form-container">
       <h1 className="full-width ">Kontakt</h1>
       <div className="contact">
-        <form>
+        <div className="contact_form">
           <h4 className="contact-title">Formularz kontaktowy</h4>
-          <input placeholder="Imię" />
-          <input placeholder="E-mail" />
-          <input placeholder="Temat" />
-          <input placeholder="Telefon" />
-          <textarea placeholder="Wiadomość" rows="4" />
-          <button>Wyślij</button>
-        </form>
+          <form>
+            <input placeholder="Imię" />
+            <input placeholder="E-mail" />
+            <input placeholder="Temat" />
+            <input placeholder="Telefon" />
+            <textarea placeholder="Wiadomość" rows="4" />
+            <button>Wyślij</button>
+          </form>
+        </div>
         <div className="contact_info">
           <div className="contact_info-up">
             <p className="contact_info-text">
-              Potrzebujesz pomocy lub chcesz nawiązać z nami współprace ?
+              Potrzebujesz pomocy lub
+              <br /> chcesz nawiązać z nami współprace ?
             </p>
             <p className="contact_info-text">
-              ZADZWOŃ, NAPISZ lub skorzystaj z FORMULARZA KONTAKTOWEGO
+              ZADZWOŃ, NAPISZ lub
+              <br /> skorzystaj z FORMULARZA KONTAKTOWEGO
             </p>
           </div>
           <div className="contact_info-down">
             <div className="contact_info-down-left">
               <h4 className="contact-title down">Informacje ogólne</h4>
               <p className="contact_info-text">
-                info@sk8yard.com (+48) 785-066-111
+                info@sk8yard.com
+                <br /> (+48) 785-066-111
               </p>
             </div>
             <div className="contact_info-down-right">
               <h4 className="contact-title down">Projekty i konsultacje</h4>
               <p className="contact_info-text">
-                projekty@sk8yard.com (+48) 883-044-014
+                projekty@sk8yard.com
+                <br /> (+48) 883-044-014
               </p>
             </div>
           </div>
