@@ -44,3 +44,38 @@
   letter-spacing: 0.81px;
   background: #016c1f;
 }
+@media (max-width: 991px) {
+  .about_container {
+    height: 400px;
+  }
+  .about_up {
+    padding: 40px 50px 30px;
+  }
+  .about_title {
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+    width: 90px;
+    top: 75%;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 11.29px;
+    letter-spacing: 0.45px;
+  }
+  .about_text {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+  }
+  .about_button {
+    width: 130px;
+    height: 16px;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10.588px; /* 151.26% */
+    letter-spacing: 0.21px;
+  }
+}
