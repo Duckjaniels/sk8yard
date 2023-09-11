@@ -1,6 +1,6 @@
 .footer {
   padding: 4rem 6rem;
-  background: #1e1e1e;
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   display: flex;
   justify-content: space-around;
