@@ -34,13 +34,17 @@ function ContactForm() {
                 info@sk8yard.com
                 <br /> (+48) 785-066-111
               </p>
+              <h4 className="contact-title down more">Księgowość</h4>
+              <p className="contact_info-text more">ksiegowosc@sk8yard.com</p>
             </div>
             <div className="contact_info-down-right">
-              <h4 className="contact-title down">Projekty i konsultacje</h4>
+              <h4 className="contact-title down ">Projekty i konsultacje</h4>
               <p className="contact_info-text">
                 projekty@sk8yard.com
                 <br /> (+48) 883-044-014
               </p>
+              <h4 className="contact-title down more">Rekrutacja</h4>
+              <p className="contact_info-text more">rekrutacja@sk8yard.com</p>
             </div>
           </div>
         </div>

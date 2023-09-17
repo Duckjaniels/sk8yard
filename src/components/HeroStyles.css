@@ -45,11 +45,11 @@
 @media screen and (max-width: 555px) {
   .hero {
     max-width: 100vw;
-    height: 515px;
+    height: 480px;
   }
-  .hero img {
+  .hero-mid img {
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
   }
   .hero-text h1 {
@@ -65,7 +65,7 @@
     top: 50%;
   }
   .hero-mid .hero-text {
-    top: 50% !important;
+    top: 40% !important;
   }
   .hero-mid h1 {
     width: 100%;

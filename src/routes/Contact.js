@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import heroImage from "../assets/hero_contact.png";
+import heroImage from "../assets/hero_contact.webp";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 
@@ -9,7 +9,9 @@ function Contact() {
     <>
       <Navbar />
       <Hero cName="hero-mid" heroImg={heroImage} title="Kontakt" />
-      <ContactForm />
+      <div className="contact_form-page">
+        <ContactForm />
+      </div>
       <Footer />
     </>
   );

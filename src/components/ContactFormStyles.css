@@ -144,6 +144,9 @@
     flex-direction: column-reverse;
     padding: 0;
   }
+  .contact_info {
+    width: 70%;
+  }
   .contact_info-text {
     color: #fff;
     text-align: center;
@@ -193,4 +196,13 @@
     line-height: 16.2px; /* 163.636% */
     letter-spacing: 0.891px;
   }
+}
+.contact_form-page h1 {
+  display: none;
+}
+.more {
+  display: none;
+}
+.contact_form-page .more {
+  display: block;
 }
