@@ -91,6 +91,7 @@
 }
 @media (max-width: 991px) {
   .offer_text {
+    padding: 1rem 0;
     width: 100%;
   }
   .offer_card_left {

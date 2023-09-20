@@ -18,7 +18,7 @@ function About() {
         <div className="about_up">
           <h1 className="about_title">Sk8yard</h1>
           <p className="about_text">
-            to wysoce techniczna i kreatywna firma gotowa by podjąć się każdego
+            To wysoce techniczna i kreatywna firma gotowa by podjąć się każdego
             wyzwania, zdeterminowana by tworzyć najlepsze skateparki.
           </p>
           <p className="about_text">
