@@ -3,6 +3,12 @@ import Hero from "../components/Hero";
 import heroImage from "../assets/hero_offer.webp";
 import Footer from "../components/Footer";
 import "./OfferStyles.css";
+import Offert_1 from "../assets/offert/offert_1.webp";
+import Offert_2 from "../assets/offert/offert_2.webp";
+import Offert_3 from "../assets/offert/offert_3.webp";
+import Offert_4 from "../assets/offert/offert_4.webp";
+import Offert_5 from "../assets/offert/offert_5.webp";
+import Offert_6 from "../assets/offert/offert_6.webp";
 
 function Offer() {
   return (
@@ -31,7 +37,9 @@ function Offer() {
               <li>warsztaty z użytkownikami</li>
             </ul>
           </div>
-          <div className="offer_image"></div>
+          <div className="offer_image">
+            <img src={Offert_1} alt="Planowanie" />
+          </div>
         </div>
         <div className="offer_card_right">
           <div className="offer_text">
@@ -47,7 +55,9 @@ function Offer() {
               projektową wraz z niezbędnymi uzgodnieniami.
             </p>
           </div>
-          <div className="offer_image"></div>
+          <div className="offer_image">
+            <img src={Offert_2} alt="Projektowanie" />
+          </div>
         </div>
         <div className="offer_card_left">
           <div className="offer_text">
@@ -65,7 +75,9 @@ function Offer() {
               <li>betonowe</li>
             </ul>
           </div>
-          <div className="offer_image"></div>
+          <div className="offer_image">
+            <img src={Offert_3} alt="Budowa" />
+          </div>
         </div>
         <div className="offer_card_right">
           <div className="offer_text">
@@ -83,7 +95,9 @@ function Offer() {
               <li>Dowolna kolorystyka z palety RAL</li>
             </ul>
           </div>
-          <div className="offer_image"></div>
+          <div className="offer_image">
+            <img src={Offert_4} alt="Pumptracki modułowe" />
+          </div>
         </div>
         <div className="offer_card_left">
           <div className="offer_text">
@@ -103,7 +117,9 @@ function Offer() {
               <li>Organizacja pokazów i warsztatów z instruktorami.</li>
             </ul>
           </div>
-          <div className="offer_image"></div>
+          <div className="offer_image">
+            <img src={Offert_5} alt="Urządzenia mobilne" />
+          </div>
         </div>
         <div className="offer_card_right">
           <div className="offer_text">
@@ -116,7 +132,9 @@ function Offer() {
               skateparków.
             </p>
           </div>
-          <div className="offer_image"></div>
+          <div className="offer_image">
+            <img src={Offert_6} alt="Serwis i modernizacja" />
+          </div>
         </div>
       </div>
       <Footer />
