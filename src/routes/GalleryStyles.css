@@ -29,11 +29,13 @@
   .gallery_img-medium {
     width: 50%;
     object-fit: cover;
+    padding: 1rem;
   }
 
   .gallery_img-big {
     width: 70%;
     object-fit: cover;
+    padding: 1rem;
   }
 
   .gallery_small_images {
@@ -44,8 +46,7 @@
   .gallery_small_images .gallery_img-small {
     width: 100%;
     object-fit: cover;
-    margin-right: 10px; /* Dodaj odstęp między małymi obrazkami w poziomie */
-    margin-bottom: 10px; /* Dodaj odstęp między małymi obrazkami w pionie */
+    padding: 1rem; /* Dodaj odstęp między małymi obrazkami w pionie */
   }
 
   .gallery_card-left .gallery_small_images .gallery_img-small:last-child {
