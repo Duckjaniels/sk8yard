@@ -1,3 +1,11 @@
+.offer_container {
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
 .offer_card_left {
   height: 450px;
   display: flex;

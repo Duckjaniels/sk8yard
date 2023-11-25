@@ -1,5 +1,12 @@
 .about_container {
   height: 830px;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .about_up {
   padding: 150px 255px 80px;

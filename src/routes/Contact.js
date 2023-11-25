@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import heroImage from "../assets/hero_contact.webp";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
+import "./ContactStyles.css";
 
 function Contact() {
   return (
