@@ -129,7 +129,13 @@
   display: flex;
   justify-content: space-evenly;
 }
-
+@media screen and (max-width: 1050px) {
+  .contact {
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0;
+  }
+}
 @media screen and (max-width: 850px) {
   .form-container h1 {
     text-align: center;

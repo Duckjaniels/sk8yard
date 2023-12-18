@@ -50,9 +50,26 @@ img {
 .show:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 1050px) {
+  .about_us {
+    background-color: #dfdad5;
+    height: 50vh;
+  }
+  .about_us img {
+    display: none;
+  }
+  .about-text {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+}
 @media screen and (max-width: 555px) {
   .about_us {
     background-color: #dfdad5;
+    height: 110vh;
   }
   .about-text {
     position: absolute;

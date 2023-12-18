@@ -49,7 +49,24 @@
   letter-spacing: 0.81px;
   background: #016c1f;
 }
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
+  .about_up {
+    padding: 80px;
+  }
+  .about_container {
+    height: 50vh;
+  }
+  .about_title {
+    right: 35%;
+    width: 30%;
+  }
+}
+@media (max-width: 900px) {
+  .about_container {
+    height: 70vh;
+  }
+}
+@media (max-width: 600px) {
   .about_container {
     height: 400px;
   }
