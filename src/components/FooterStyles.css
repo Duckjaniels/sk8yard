@@ -87,8 +87,7 @@
 
 @media (max-width: 991px) {
   .footer {
-    height: 300px;
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
   .footer-title {
     text-align: left;

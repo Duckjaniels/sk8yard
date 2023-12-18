@@ -38,7 +38,7 @@
 }
 .nav-links {
   text-decoration: none;
-  border-right: 2px solid green;
+  border-right: 2px solid #074226;
   color: #fff;
   font-size: 1.2rem;
   font-weight: 400;
@@ -46,7 +46,7 @@
   text-transform: uppercase;
 }
 .nav-links:hover {
-  color: green;
+  color: #074226;
   transition: all 0.2s ease-in-out;
 }
 .last-link {
@@ -65,8 +65,25 @@
   height: 22px;
   padding: 3px 0;
 }
+@media screen and (max-width: 1024px) {
+  .navbar-logo {
+    width: 250px;
+  }
 
+  .nav-menu {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .nav-links {
+    padding: 0.2rem 0.7rem;
+  }
+}
 @media screen and (max-width: 850px) {
+  .nav-links {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 650px) {
   #navbar-container {
     margin: 0;
     width: 100vw;
@@ -78,7 +95,7 @@
   }
   .navbar-logo {
     flex: 0 0 auto;
-    max-width: 330px;
+    width: 330px;
   }
   .nav-menu {
     display: flex;
@@ -112,7 +129,7 @@
     padding: 1.2rem 0;
   }
   .nav-links:hover {
-    background: green;
+    background: #074226;
     color: white;
     transition: none;
   }

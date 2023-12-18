@@ -97,6 +97,11 @@
   font-weight: 400;
   line-height: 30px; /* 166.667% */
 }
+@media (max-width: 1100px) {
+  .offer_card_left .offer_text-title {
+    padding: 0.5rem 5rem;
+  }
+}
 @media (max-width: 991px) {
   .offer_text {
     padding: 1rem 0;
