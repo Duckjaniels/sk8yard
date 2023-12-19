@@ -6,9 +6,10 @@
   display: flex;
   flex-direction: column;
 }
+
 @media (max-width: 991px) {
   .gallery_container {
-    padding: 1rem;
+    padding: 4rem 1rem;
   }
 }
 @media (min-width: 991px) {

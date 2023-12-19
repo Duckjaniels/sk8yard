@@ -59,7 +59,7 @@
 @media screen and (max-width: 805px) {
   .hero-mid {
     max-width: 100vw;
-    height: 30vh;
+    height: 25vh;
     position: relative;
     text-align: center;
   }
@@ -74,7 +74,9 @@
   }
   .hero-mid img {
     width: 100%;
-    object-fit: cover;
+    top: 18%;
+    object-fit: contain;
+    position: relative;
   }
   .hero-text h1 {
     width: 100%;
