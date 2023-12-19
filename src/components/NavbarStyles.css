@@ -38,7 +38,7 @@
 }
 .nav-links {
   text-decoration: none;
-  border-right: 2px solid #074226;
+  border-right: 2px solid green;
   color: #fff;
   font-size: 1.2rem;
   font-weight: 400;
@@ -46,7 +46,7 @@
   text-transform: uppercase;
 }
 .nav-links:hover {
-  color: #074226;
+  color: green;
   transition: all 0.2s ease-in-out;
 }
 .last-link {
@@ -129,7 +129,7 @@
     padding: 1.2rem 0;
   }
   .nav-links:hover {
-    background: #074226;
+    background: green;
     color: white;
     transition: none;
   }
