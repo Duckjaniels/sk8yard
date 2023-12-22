@@ -14,12 +14,7 @@ function Offer() {
   return (
     <>
       <Navbar />
-      <Hero
-        cName="hero-mid"
-        heroImg={heroImage}
-        title="Oferta"
-        text="PROJEKTUJEMY - BUDUJEMY - JEŹDZIMY"
-      />
+      <Hero cName="hero-mid" heroImg={heroImage} title="Oferta" />
       <div className="offer_container">
         <div className="offer_card_left">
           <div className="offer_text">

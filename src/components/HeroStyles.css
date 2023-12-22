@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -74,7 +74,7 @@
   }
   .hero-mid img {
     width: 100%;
-    top: 18%;
+    top: 23%;
     object-fit: contain;
     position: relative;
   }

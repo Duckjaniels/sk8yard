@@ -35,12 +35,7 @@ function Gallery() {
   return (
     <>
       <Navbar />
-      <Hero
-        cName="hero-mid"
-        heroImg={heroImage}
-        title="Galeria"
-        text="Projekty & budowa"
-      />
+      <Hero cName="hero-mid" heroImg={heroImage} title="Galeria" />
       <div className="gallery_container">
         <div className="gallery_card-left">
           <img className="gallery_img-big" src={Group1_1} alt="Planowanie" />

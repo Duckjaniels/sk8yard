@@ -17,8 +17,6 @@ function Home() {
         <Hero
           cName="hero"
           heroImg={heroImage}
-          title="sk8yard"
-          text="Profesjonalne obiekty sportowe"
           alt="Skatepark w miejscowości Jelenia Góra wykonany w technologii modułowej kompozytowej na konstrukcji drewnianej, sklejkowej pokryty specjalną matą został zbudowany przez firmę SK8YARD. Skatepark przeznaczony jest dla miłosników extremalnej jazdy na deskorolkach, rolkach, rowerach mtb i bmx oraz hulajnogach. "
         />
         <OurOffer />

@@ -8,12 +8,7 @@ function About() {
   return (
     <>
       <Navbar />
-      <Hero
-        cName="hero-mid"
-        heroImg={heroImage}
-        title="O nas"
-        text="Wiedza, która buduje społeczność"
-      />
+      <Hero cName="hero-mid" heroImg={heroImage} title="O nas" />
       <div className="about_container">
         <div className="about_up">
           <h1 className="about_title">Sk8yard</h1>
