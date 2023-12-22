@@ -53,7 +53,7 @@ img {
 @media screen and (max-width: 1050px) {
   .about_us {
     background-color: #dfdad5;
-    height: 50vh;
+    height: 60vh;
   }
   .about_us img {
     display: none;

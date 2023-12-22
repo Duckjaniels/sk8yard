@@ -9,8 +9,12 @@ import Offert_3 from "../assets/offert/offert_3.webp";
 import Offert_4 from "../assets/offert/offert_4.webp";
 import Offert_5 from "../assets/offert/offert_5.webp";
 import Offert_6 from "../assets/offert/offert_6.webp";
+import React, { useEffect } from "react";
 
 function Offer() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

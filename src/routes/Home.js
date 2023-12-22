@@ -8,8 +8,12 @@ import PhotoGallery from "../components/PhotoGallery";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import "./Home.css";
+import React, { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

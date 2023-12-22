@@ -4,8 +4,12 @@ import heroImage from "../assets/hero_contact.webp";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import "./ContactStyles.css";
+import React, { useEffect } from "react";
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

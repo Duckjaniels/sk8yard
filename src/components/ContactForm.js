@@ -13,8 +13,8 @@ function ContactForm() {
             <input placeholder="Temat" />
             <input placeholder="Telefon" />
             <textarea placeholder="Wiadomość" rows="4" />
-            <button>Wyślij</button>
           </form>
+          <button className="offer-button_main">Wyślij</button>
         </div>
         <div className="contact_info">
           <div className="contact_info-up">

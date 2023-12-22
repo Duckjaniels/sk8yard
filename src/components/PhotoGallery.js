@@ -52,8 +52,8 @@ const PhotoGallery = () => {
 
   return (
     <div className="gallery-container">
-      <h1>Galeria</h1>
-      <p>Zobacz niektóre z naszych realizacji</p>
+      <h1 className="full-width">Galeria</h1>
+
       <div className={model ? "model open" : "model"}>
         <img src={tempimgSrc} />
         <CloseIcon onClick={() => setModel(false)} />

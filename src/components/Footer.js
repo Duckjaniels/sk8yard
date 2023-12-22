@@ -13,7 +13,6 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="left">
-        <h4 className="footer-title">Dane firmy</h4>
         <ul>
           <li>
             <strong>SK8YARD</strong> Sp. z o.o.
@@ -39,7 +38,6 @@ const Footer = () => {
         <p className="copywrite">© Sk8yard 2023</p>
       </div>
       <div className="right">
-        <h4 className="footer-title">Skrót</h4>
         <ul className="footer_menu">
           {MenuItems.map((item, index) => {
             const isLastLink = index === MenuItems.length - 1;

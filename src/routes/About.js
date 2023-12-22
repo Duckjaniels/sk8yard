@@ -3,8 +3,12 @@ import Hero from "../components/Hero";
 import heroImage from "../assets/hero_about.webp";
 import Footer from "../components/Footer";
 import "./AboutStyles.css";
+import React, { useEffect } from "react";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />
@@ -29,7 +33,7 @@ function About() {
           </p>
         </div>
         <a href="/Contact">
-          <button className="about_button">Skontaktuj się z nami</button>
+          <button className="offer-button_main">Skontaktuj się z nami</button>
         </a>
       </div>
       <Footer />

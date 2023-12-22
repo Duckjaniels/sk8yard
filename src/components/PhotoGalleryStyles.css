@@ -1,15 +1,14 @@
 .gallery-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Wyśrodkowuje zawartość w pionie */
+  /* Wyśrodkowuje zawartość w pionie */
   justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
-  padding: 5rem 10rem;
+  padding: 5rem 0;
   max-width: 100vw;
   text-align: center; /* Dodaj wyśrodkowanie w poziomie */
 }
 .carousel {
   /* Twój styl karuzeli */
-
   height: 500px; /* Ustawia maksymalną szerokość karuzeli na 50% kontenera */
   margin: 0 auto; /* Wyśrodkuj karuzelę w poziomie */
   /* Możesz dostosować maksymalną szerokość karuzeli według własnych preferencji */
@@ -18,38 +17,25 @@
   text-shadow: 0px 0px 0px transparent, 0px 0px 6px rgba(0, 0, 0, 0.8);
   overflow: hidden;
   text-transform: uppercase;
-  height: 110px;
-  width: 100vw;
-  padding-bottom: 10px;
   flex-shrink: 0;
-  background: rgba(1, 108, 31, 0.33);
-  color: #016c1fa8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  color: #fff;
   flex-shrink: 0;
   text-align: center;
   font-family: Kanit;
-  font-size: 180px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 400;
   line-height: 0px; /* 30% */
   letter-spacing: 9px;
+  background-color: rgba(1, 108, 31, 0.33);
+  padding: 30px 160px;
+  margin: 50px 0;
 }
-
-.gallery-container p {
-  padding-top: 5px;
-  text-transform: uppercase;
-  color: #fff;
-  text-align: center;
-  font-feature-settings: "liga" off;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Kanit;
-  font-size: 21px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 45px; /* 214.286% */
-  letter-spacing: 1.89px;
+.gallery-container h1.full-width {
+  width: 33vw; /* Szerokość całego okna przeglądarki */
+}
+.photo-gallery {
+  padding: 0 10rem;
 }
 .model {
   width: 100%;
@@ -118,7 +104,28 @@
   padding-right: 2px; /* Dodaje odstęp między miniaturkami */
   cursor: pointer;
 }
+@media (max-width: 1500) {
+  .photo-gallery {
+    padding: 0;
+  }
+  .gallery-container h1 {
+    padding: 10px 30px;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.837px; /* 68.466% */
+    letter-spacing: 2.79px;
+  }
+  .gallery-container h1.full-width {
+    width: 40vw !important; /* Szerokość całego okna przeglądarki */
+  }
+}
 @media (max-width: 991px) {
+  .photo-gallery {
+    padding: 0;
+  }
   .model.open svg {
     top: 20px;
     right: 25px;
@@ -127,29 +134,19 @@
     padding: 2rem 0;
   }
   .gallery-container h1 {
+    padding: 10px 30px;
     text-align: center;
     font-family: Kanit;
-    font-size: 50px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 31.837px; /* 68.466% */
     letter-spacing: 2.79px;
-    height: 30px;
-    padding-bottom: 0px;
   }
-  .gallery-container p {
-    color: #fff;
-    text-align: center;
-    font-feature-settings: "liga" off;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Kanit;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 45px; /* 450% */
-    letter-spacing: 0.9px;
-    text-transform: uppercase;
+  .gallery-container h1.full-width {
+    width: 50vw !important; /* Szerokość całego okna przeglądarki */
   }
+
   .carousel {
     height: 220px;
   }

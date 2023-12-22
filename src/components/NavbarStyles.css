@@ -28,7 +28,6 @@
   white-space: nowrap;
   display: grid;
   grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
   list-style: none;
   align-items: center;
   padding-left: 15rem;
@@ -44,8 +43,7 @@
   text-transform: uppercase;
 }
 .nav-links:hover {
-  color: green;
-  transition: all 0.2s ease-in-out;
+  background-color: rgba(1, 108, 31, 0.33);
 }
 .last-link {
   border-right: none;

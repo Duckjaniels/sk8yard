@@ -10,14 +10,13 @@ function OurOffer() {
   return (
     <div className="offer">
       <h1 className="full-width">oferta</h1>
-      <p className="offer-subtitle">Kompleksowa obsługa na każdym etapie</p>
       <div className="offercard">
         <div className="o-card o-card-image">
           <h4 className="o-card-title">Planowanie</h4>
           <img src={Offert1} alt="Konsultacje" />
           <p className="o-card-text">
-            Firma sk8yard zapewnia specjalistyczną wiedzę w zakresie planowania
-            budowy skateparku.
+            Zapewniamy specjalistyczną wiedzę w zakresie planowania budowy
+            skateparku.
           </p>
           <a href="/Offer" className="offer-button">
             Czytaj więcej
@@ -29,8 +28,6 @@ function OurOffer() {
           <img src={Offert2} alt="Projektowanie" />
           <p className="o-card-text">
             Niewątpliwym sukcesem każdego skateparku jest jego unikalny projekt
-            dopasowany do miejsca oraz potrzeb lokalnych mieszkańców i
-            użytkowników.
           </p>
           <a href="/Offer" className="offer-button">
             Czytaj więcej

@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import heroImage from "../assets/hero_gallery.png";
 import Footer from "../components/Footer";
 import "./GalleryStyles.css";
+import React, { useEffect } from "react";
 import Group1_1 from "../assets/gallery//gallery_page/group1/group1_1.webp";
 import Group1_2 from "../assets/gallery//gallery_page/group1/group1_2.webp";
 import Group1_3 from "../assets/gallery//gallery_page/group1/group1_3.webp";
@@ -32,6 +33,9 @@ import Group10_2 from "../assets/gallery//gallery_page/group10/group10_2.webp";
 import Group10_3 from "../assets/gallery//gallery_page/group10/group10_3.webp";
 
 function Gallery() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Navbar />

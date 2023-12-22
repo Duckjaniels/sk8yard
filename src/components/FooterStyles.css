@@ -76,13 +76,13 @@
   list-style: none;
 }
 .footer li {
-  padding: 0.1rem 0;
+  padding: 0.3rem 0;
 }
 .footer_menu .nav-links {
   border-right: none;
 }
 .right ul {
-  text-align: center;
+  text-align: right;
 }
 
 @media (max-width: 991px) {
