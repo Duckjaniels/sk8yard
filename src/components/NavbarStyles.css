@@ -4,7 +4,7 @@
   display: flex;
   position: fixed;
   z-index: 10000;
-  width: 100%;
+  max-width: 100vw;
   height: 90px;
   margin: 0;
   left: 0;
@@ -12,7 +12,7 @@
 
 .NavbarItems {
   display: flex;
-  width: 100%;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
@@ -67,7 +67,7 @@
 }
 @media screen and (max-width: 1024px) {
   .navbar-logo {
-    width: 250px;
+    width: 80%;
   }
 
   .nav-menu {
@@ -86,7 +86,7 @@
 @media screen and (max-width: 650px) {
   #navbar-container {
     margin: 0;
-    width: 100vw;
+    max-width: 100vw;
   }
   .NavbarItems {
     z-index: 99;
@@ -95,7 +95,7 @@
   }
   .navbar-logo {
     flex: 0 0 auto;
-    width: 330px;
+    max-width: 100vw;
   }
   .nav-menu {
     display: flex;
