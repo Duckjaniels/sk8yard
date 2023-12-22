@@ -1,5 +1,10 @@
 .offer_container {
-  background-color: #060608;
+  background: rgb(4, 14, 2);
+  background: radial-gradient(
+    circle,
+    rgba(4, 14, 2, 1) 0%,
+    rgba(2, 6, 0, 1) 97%
+  );
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -17,7 +22,12 @@
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  background: rgba(255, 255, 255, 0.11);
+  background: rgb(72, 74, 71);
+  background: radial-gradient(
+    circle,
+    rgba(72, 74, 71, 1) 1%,
+    rgba(15, 15, 15, 1) 98%
+  );
 }
 .offer_image {
   width: 50%;

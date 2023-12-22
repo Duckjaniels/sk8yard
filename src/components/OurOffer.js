@@ -59,8 +59,8 @@ function OurOffer() {
           <h4 className="o-card-title">Urządenia mobilne</h4>
           <img src={Offert5} alt="Urządenia mobilne" />
           <p className="o-card-text">
-            SK8YARD oferuje kompleksową usługę od projektu koncepcyjnego po
-            realizację urządzeń na potrzeby własne i komercyjne
+            Kompleksowa usługa od projektu koncepcyjnego po realizację urządzeń
+            na potrzeby własne i komercyjne
           </p>
           <a href="/Offer" className="offer-button">
             Czytaj więcej
@@ -70,9 +70,8 @@ function OurOffer() {
           <h4 className="o-card-title">Serwis i modernizacje</h4>
           <img src={Offert6} alt="Serwis i modernizacje" />
           <p className="o-card-text">
-            Oferujemy pełny pakiet serwisowy od przeglądów gwarancyjnych przez
-            naprawy i konserwację aż po Kompleksową naprawę i modernicazję
-            skateparków.
+            Od przeglądów gwarancyjnych przez naprawy i konserwację aż po
+            Kompleksową naprawę i modernicazję skateparków.
           </p>
           <a href="/Offer" className="offer-button">
             Czytaj więcej

@@ -1,11 +1,19 @@
 .about_container {
-  background-color: #060608;
+  background: rgb(4, 14, 2);
+  background: radial-gradient(
+    circle,
+    rgba(4, 14, 2, 1) 0%,
+    rgba(2, 6, 0, 1) 97%
+  );
   background-size: cover;
   display: flex;
   flex-direction: column;
 }
 .about_up {
-  padding: 100px 255px;
+  padding: 50px 255px;
+}
+.about_text-container {
+  padding-top: 25px;
 }
 .about_title {
   text-align: center;
@@ -31,7 +39,8 @@
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.72px;
-  padding: 45px 0 0 0;
+
+  margin-top: 30px;
 }
 .offer-button_main {
   padding: 10px;
@@ -45,7 +54,7 @@
   font-weight: 600;
   line-height: 36px; /* 163.636% */
   letter-spacing: 1.98px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 @media (max-width: 1050px) {
   .about_up {
