@@ -17,16 +17,6 @@ function ContactForm() {
           <button className="offer-button_main">Wyślij</button>
         </div>
         <div className="contact_info">
-          <div className="contact_info-up">
-            <p className="contact_info-text">
-              Potrzebujesz pomocy lub
-              <br /> chcesz nawiązać z nami współprace ?
-            </p>
-            <p className="contact_info-text">
-              ZADZWOŃ, NAPISZ lub
-              <br /> skorzystaj z FORMULARZA KONTAKTOWEGO
-            </p>
-          </div>
           <div className="contact_info-down">
             <div className="contact_info-down-left">
               <h4 className="contact-title down">Informacje ogólne</h4>

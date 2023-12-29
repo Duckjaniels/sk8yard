@@ -3,7 +3,7 @@
   flex-direction: column;
   /* Wyśrodkowuje zawartość w pionie */
   justify-content: center; /* Wyśrodkowuje zawartość w poziomie */
-  padding: 5rem 0;
+
   max-width: 100vw;
   text-align: center; /* Dodaj wyśrodkowanie w poziomie */
 }
@@ -89,21 +89,27 @@
 .control-dots {
   display: none;
 }
+.thumbnail {
+  padding-right: 10px;
+}
 .thumbnails {
   display: flex;
   overflow-x: auto; /* Umożliwia przewijanie miniaturk poziomo */
   padding: 1rem 0;
-  max-width: 100%; /* Ustawia maksymalną szerokość galerii miniatur na 50% kontenera */
   margin: 0 auto; /* Wyśrodkuj miniaturki w poziomie */
-  /* Możesz dostosować maksymalną szerokość galerii miniatur według własnych preferencji */
 }
 
 .thumbnails img {
   width: 200px;
   height: 150px; /* Dzieli szerokość na 6 równych części */
-  padding-right: 2px; /* Dodaje odstęp między miniaturkami */
+
   cursor: pointer;
+  object-fit: cover;
 }
+.thumbnail:last-child {
+  padding: 0;
+}
+
 @media (max-width: 1500) {
   .photo-gallery {
     padding: 0;

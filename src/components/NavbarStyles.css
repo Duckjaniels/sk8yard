@@ -9,17 +9,20 @@
   margin: 0;
   left: 0;
 }
+.fa-youtube {
+  display: none;
+}
 
 .NavbarItems {
   display: flex;
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 .navbar-logo {
   cursor: pointer;
-  width: 70%;
+  width: 20%;
   height: 50%;
   object-fit: contain;
 }
@@ -30,8 +33,7 @@
   grid-template-columns: repeat(5, auto);
   list-style: none;
   align-items: center;
-  padding-left: 15rem;
-  padding-right: 10rem;
+  padding-left: 20rem;
 }
 .nav-links {
   text-decoration: none;
@@ -54,12 +56,12 @@
 .nav_socials {
   color: white;
   display: flex;
-  flex-direction: column;
+  width: 10px;
 }
 .nav_socials svg {
-  width: 22px;
-  height: 22px;
-  padding: 3px 0;
+  padding: 0 10px;
+  width: 30px;
+  height: 30px;
 }
 @media screen and (max-width: 1024px) {
   .navbar-logo {

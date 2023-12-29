@@ -34,9 +34,6 @@ function About() {
             </p>
           </div>
         </div>
-        <a href="/Contact">
-          <button className="offer-button_main">Skontaktuj się z nami</button>
-        </a>
       </div>
       <Footer />
     </>

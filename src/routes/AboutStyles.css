@@ -8,6 +8,10 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
+  padding: 50px 100px;
+}
+.offercard img {
+  object-fit: contain;
 }
 .about_up {
   padding: 50px 255px;
@@ -22,34 +26,30 @@
   width: 20%;
   color: #fff;
   font-family: Kanit;
-  font-size: 39px;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
-  letter-spacing: 1.17px;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 9px;
   text-transform: uppercase;
-  border-right: 5px solid green;
-  border-left: 5px solid green;
 }
 .about_text {
   color: #fff;
   font-family: Kanit;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.72px;
-
   margin-top: 30px;
 }
 .offer-button_main {
   padding: 10px;
   text-transform: uppercase;
-  font-weight: bold;
   cursor: pointer;
   color: #fff;
   font-family: Kanit;
-  font-size: 22px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px; /* 163.636% */

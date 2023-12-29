@@ -82,10 +82,10 @@
   color: #fff;
   text-align: center;
   font-family: Kanit;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 72px;
+  line-height: 50px;
   letter-spacing: 2.43px;
   text-transform: uppercase;
 }
@@ -118,11 +118,17 @@
 }
 .offer-button {
   cursor: pointer;
+  font-family: Kanit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 30px;
   text-decoration: none;
   position: absolute;
   color: #008000;
-  padding: 2rem 0;
-  font-size: 1.2rem;
+  padding: 1rem 0;
+
   right: 5%;
   bottom: 0;
   left: 50%;

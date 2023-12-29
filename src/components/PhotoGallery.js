@@ -87,7 +87,7 @@ const PhotoGallery = () => {
         </div>
       </div>
       <a href="/Offer">
-        <button className="offer-button_main">Zobacz więcej realizacji</button>
+        <button className="offer-button_main">Zobacz więcej</button>
       </a>
     </div>
   );

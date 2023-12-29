@@ -1,6 +1,8 @@
 .form-container {
   display: flex;
   flex-direction: column;
+  background-image: url("../assets/contact_background.webp");
+  background-size: cover;
 }
 .form-container h1 {
   text-shadow: 0px 0px 0px transparent, 0px 0px 6px rgba(0, 0, 0, 0.8);
@@ -25,8 +27,8 @@
 .contact {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 2rem 10rem;
+  justify-content: space-between;
+  padding: 2rem 8rem 1rem 8rem;
 }
 
 .form-container form {
@@ -35,22 +37,27 @@
   margin: auto;
   padding: 0 2rem;
 }
+.contact_info-down .contact-title {
+  color: green;
+}
 .contact-title {
   position: relative;
-  color: #fff;
+  color: white;
   padding: 0px;
   font-family: Kanit;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px;
-  letter-spacing: 1.08px;
+  letter-spacing: 3px;
   text-transform: uppercase;
 }
+
 ::placeholder {
-  color: black;
-  opacity: 1;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: Kanit;
+  font-size: 15px;
+  letter-spacing: 1.35px;
 }
 .form-container input {
   font-family: Kanit;
@@ -62,14 +69,18 @@
   border: 2px solid #074226;
 }
 .form-container textarea {
-  padding: 1rem;
+  padding: 5px 0 0 16px;
   color: rgba(0, 0, 0, 0.66);
   font-family: Kanit;
   margin: 1rem 0;
   background: #d9d9d9;
   border: 2px solid #074226;
-  height: 120px;
+  height: 180px;
 }
+textarea {
+  resize: none;
+}
+
 .offer-button_main button {
   padding: 0 30px;
   text-transform: uppercase;
@@ -91,7 +102,6 @@
   justify-content: space-around;
 }
 .contact_info-text {
-  padding: 1rem 0;
   color: #fff;
   text-align: center;
   font-family: Kanit;
@@ -101,9 +111,7 @@
   line-height: 33px; /* 137.5% */
   letter-spacing: 0.72px;
 }
-.contact_info-up {
-  padding-bottom: 3rem;
-}
+
 .contact_info-down-left .contact_info-text {
   color: #fff;
   font-family: Kanit;
@@ -112,6 +120,7 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 1.08px;
+  padding-bottom: 50px;
 }
 .contact_info-down-right .contact_info-text {
   color: #fff;
@@ -121,10 +130,12 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 1.08px;
+  padding-bottom: 50px;
 }
 .contact_info-down {
+  padding-bottom: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 @media screen and (max-width: 1050px) {
   .contact {
@@ -168,9 +179,7 @@
     line-height: 14.85px; /* 137.5% */
     letter-spacing: 0.324px;
   }
-  .contact_info-up {
-    padding-bottom: 1rem;
-  }
+
   .contact-title {
     color: #fff;
     font-family: Kanit;
